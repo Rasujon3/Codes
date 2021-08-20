@@ -1,0 +1,19 @@
+#include<graphics.h>
+#include<conio.h>
+#include<stdio.h>
+main()
+{
+   int gd = DETECT, gm, max_x;
+
+   initgraph(&gd, &gm, " ");
+
+   circle(200, 200, 50);
+
+      max_x = getmaxx();
+
+   printf("Maximum X coordinate for current graphics mode and driver = %d.",max_x);
+
+   getch();
+   closegraph();
+   return 0;
+}

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1514140574 source:g:\10th semister fall 2020\computer graphics\codes\pie_chart\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1609594433 source:g:\10th semister fall 2020\computer graphics\codes\pie_chart\pie.cpp
+	<graphics.h>
+	<iostream>
+
